@@ -4,23 +4,25 @@ import {darken, transparentize} from 'polished'
 
 export const Conteiner = styled.form`
   h2{
-    color: var(--text-title);
+    color: var(--white);
     font-size: 1.5rem;
     margin-bottom: 2rem;
+    text-transform: uppercase;
   }
 
   input{
     width: 100%;
+    color: var(--white);
     padding: 0 1.5rem;
     height: 4rem;
     border-radius: 0.25rem;
     border: 1px solid #d7d7d7;
-    background: #e7e9ee;
+    background: var(--green);
     font-weight: 400;
     font-size: 1rem;
 
     &::placeholder{
-      color: var(--text-body);
+      color: var(--white);
     }
 
     & + input{
@@ -33,8 +35,8 @@ export const Conteiner = styled.form`
     width: 100%;
     padding: 0 1.5rem;
     height: 4rem;
-    background: var(--green);
-    color: #fff;
+    background: var(--white);
+    color: var(--black);
     border-radius: 0.25rem;
     border: 0;
     font-size: 1rem;
@@ -82,7 +84,7 @@ export const RadioBox = styled.button<RadioBoxProps>`
     justify-content: center;
 
     &:hover{
-      border-color: ${darken(0.1, '#d7d7d7')};
+      border-color: ${darken(0.01, '#d7d7d7')};
     }
 
     img{

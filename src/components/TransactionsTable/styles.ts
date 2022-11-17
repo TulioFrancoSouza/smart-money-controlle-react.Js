@@ -8,7 +8,7 @@ export const Conteiner = styled.div`
     border-spacing: 0 0.5rem;
 
     th{
-      color: var(--text-body);
+      color: var(--white);
       font-weight: 400;
       padding: 1rem 2rem;
       text-align: left;
@@ -19,11 +19,10 @@ export const Conteiner = styled.div`
       padding: 1rem 2rem;
       border: 0;
       background: var(--shape);
-      color: var(--text-body);
-      border-radius: 0.25rem;
+      color: var(--white);
 
       &:first-child{
-        color: var(--text-title)
+        color: var(--white)
       }
 
       &.withdraw{

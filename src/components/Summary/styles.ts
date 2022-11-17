@@ -8,9 +8,9 @@ export const Conteiner = styled.div`
 
     div{
       background: var(--shape);
-      padding: 1.5rem;
-      border-radius: 0.25rem;
-      color: var(--text-title);
+      padding: 1rem;
+      border-radius: 0.5rem;
+      color: var(--white);
       box-shadow: 0 0 1rem 0 rgba(0,0,0, 0.9);
 
       header{
